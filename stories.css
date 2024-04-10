@@ -1,0 +1,51 @@
+/* Style the video section */
+section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* Style the video */
+  video {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    
+  }
+  
+  /* Style the video controls */
+  video::-webkit-media-controls {
+    
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style the video controls buttons */
+  video::-webkit-media-controls-play-button,
+  video::-webkit-media-controls-pause-button,
+  video::-webkit-media-controls-mute-button {
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  video::-webkit-media-controls-play-button:hover,
+  video::-webkit-media-controls-pause-button:hover,
+  video::-webkit-media-controls-mute-button:hover {
+    background-color: #e64a99;
+  }
+  

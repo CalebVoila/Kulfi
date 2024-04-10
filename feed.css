@@ -1,0 +1,76 @@
+/* Feedback Form Styles */
+
+body {
+    font-family: 'Old Standard TT', Georgia, serif;
+    background-image: url('./asset/first.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.feedback-section {
+   
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.feedback-section h2 {
+    color: #333; /* Dark gray for headings */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feedback-section p {
+    color: #555; /* Slightly lighter gray for text */
+    margin-bottom: 20px;
+}
+
+.feedback-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-section .form-group {
+    margin: 10px 0;
+}
+
+.feedback-section label {
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-section input,
+.feedback-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Old Standard TT', Georgia, serif; /* Match the page font */
+}
+
+.feedback-section button {
+    background-color: #8B4513; /* Saddle Brown */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Old Standard TT', Georgia, serif;
+}
+
+.feedback-section button:hover {
+    background-color: #D2691E; /* Chocolate */
+    opacity: 0.9;
+}

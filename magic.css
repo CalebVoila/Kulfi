@@ -1,0 +1,71 @@
+/* Style for the entire page */
+body {
+    font-family: 'Old Standard TT', Georgia, serif;
+    background-image: url('./asset/first.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    padding: 20px 0;
+}
+
+/* Style for the h1 element in the header */
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Style for the navigation links in the header */
+nav.innovative-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style for the features section containing stories and images */
+.features {
+    
+    padding: 20px 0;
+}
+
+/* Style for each story feature */
+.feature {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style for the images in the story features */
+.feature img {
+    width: 100%;
+    max-width: 500px; /* Set a maximum width for the images */
+    border-radius: 50%; /* Make the images rounded */
+}
+
+/* Style for the text content in the story features */
+.feature pre {
+    text-align: justify; /* Justify text for better readability */
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Style for the About Us section */
+.feature-details {
+    text-align: justify; /* Justify text for better readability */
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Style for the footer */
+footer {
+    
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}

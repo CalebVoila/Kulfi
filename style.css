@@ -1,0 +1,126 @@
+/* Global Styles */
+
+body {
+    font-family: 'Old Standard TT', Georgia, serif;
+    background-image: url('./asset/first.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.innovative-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffae00;
+}
+
+#feedbackButton {
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#feedbackButton:hover {
+    background-color: #e69900;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #65a34a;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    clear: both;
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+/* New styles for the feature sections */
+.feature {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%; /* Make images responsive by limiting their width */
+    margin: 20px 0; /* Add margin above and below the image */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column; /* Stack feature content for smaller screens */
+    }
+
+    .feature img {
+        max-width: 100%; /* Ensure images remain responsive on smaller screens */
+    }
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
